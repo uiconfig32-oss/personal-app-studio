@@ -207,20 +207,6 @@ export default function SupportPage() {
                     </AnimatedSection>
                 )}
 
-                {/* Additional Info */}
-                <AnimatedSection delay={0.2}>
-                    <div className="mt-12 text-center">
-                        <p className="text-gray-500 text-sm">
-                            Prefer email? Reach me directly at{" "}
-                            <a
-                                href="mailto:hello@example.com"
-                                className="text-amber-600 hover:text-amber-700 font-medium"
-                            >
-                                hello@example.com
-                            </a>
-                        </p>
-                    </div>
-                </AnimatedSection>
             </div>
         </div>
     );
